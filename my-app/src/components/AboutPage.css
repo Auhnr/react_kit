@@ -1,0 +1,89 @@
+
+
+.about__lux {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    height: 60vh;
+    padding: 0 5%;
+    margin-top: 5%;
+}
+
+.about__lux_image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.mini__cat_container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.big__cat_img {
+
+    object-fit: cover;
+}
+
+.room-card {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    padding: 0 5%;
+
+    font-size: 18px;
+}
+
+.room-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.feature-item {
+    margin-bottom: 4%;
+}
+
+.feature_img {
+    margin-right: 2%;
+}
+
+.room-button {
+    background-color: #FF7236;
+    color: white;
+
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 206px;
+    height: 50px;
+
+    font-size: 17px;
+
+    position: relative;
+    border: none;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.room-button:hover {
+    background-color: #ff4d00;
+}
+
+.room-button__text {
+    position: absolute;
+    bottom: 30%;
+    left: 13%;
+}
+
+.room-button__item {
+    position: absolute;
+    right: 3%;
+}
+

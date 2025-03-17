@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import Main from "./components/HomePage";
 import Numbers from "./components/NumberPage"; // Каталог
 import About from "./components/AboutPage";
@@ -7,7 +7,7 @@ import buttonForMobHeader from "./image/mobile_image/for_header.png";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <header className="header">
         <img src={Logo} alt="logo" />
         <nav className="navbar">
@@ -24,7 +24,7 @@ function App() {
         <Route path="/about" element={<About />} /> {/* О нас */}
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
